@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     font-family: sans-serif;
     background: #efefef;
 }
@@ -19,12 +19,12 @@ span {
     border: 1px #ffffff dotted;
 }
 
-pre {
-    padding: 20px;
-    border: 1px solid #000000;
+p {
+    margin: 50px 0;
+
 }
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -67,4 +67,8 @@ pre {
 }
 .navbar a:hover::before {
     width: 100%;
+}
+img {
+    width: 100%;
+    max-height: 90vh;
 }
